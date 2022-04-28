@@ -1,0 +1,30 @@
+.categories{
+    user-select: none;
+    margin: 25px 0 0 15px;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    border: 1px solid #bd2258;
+    border-radius: 2px;
+}
+.links{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #bd2258;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 640px){
+    .categories{
+        margin: 1px;
+    }
+}
+@media screen and (min-width:540px) and (max-width:780px){
+    .categories{
+        margin:5px -10px 0 0 ; 
+    }
+}
